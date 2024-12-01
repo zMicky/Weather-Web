@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Main Container */
+
 .container-fluid {
     margin: 0 auto;
     display: flex;
@@ -16,7 +16,7 @@ body {
     padding: 15px;
 }
 
-/* Header Section */
+
 .header {
     width: 90px;
     height: 1300px;
@@ -41,7 +41,7 @@ body {
     text-align: center;
 }
 
-/* Content 1 - Search and Current Weather */
+
 .content1 {
     flex: 1 1 60%;
     padding: 20px;
@@ -84,7 +84,7 @@ body {
     height: auto;
 }
 
-/* Today's Forecast Section */
+
 .today-forecast {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 15px;
@@ -115,7 +115,7 @@ body {
     margin: 10px 0;
 }
 
-/* Air Conditions Section */
+
 .air {
     display: flex;
     justify-content: center;
@@ -160,7 +160,7 @@ body {
     font-size: 1.5rem;
 }
 
-/* Content 2 - Weekly Forecast */
+
 .content2 {
     flex: 1 1 35%;
     padding: 20px;
@@ -193,7 +193,7 @@ body {
     margin-left: 10px;
 }
 
-/* Footer Section */
+
 .footer {
     text-align: center;
     padding: 15px;
@@ -212,7 +212,7 @@ body {
     color: lightblue;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .content1,
     .content2 {
@@ -246,7 +246,7 @@ body {
     }
 
     .header {
-        display: none; /* Hide header for small screens */
+        display: none; 
     }
 
     .content1 input {
